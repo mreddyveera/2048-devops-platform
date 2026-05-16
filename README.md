@@ -65,6 +65,7 @@ Analyze the docker/Dockerfile. I have implemented the following 8 best practices
 some base images have generic user => node:10-alpine
 
 
+
 8.HOW TO VALIDATE THE BUILT IMAGE FOR SECURITY VULNERABILITIES?
 
     -> SCAN YOUR IMAGE FOR SECURITY VULNERABILITIES.
@@ -73,6 +74,18 @@ some base images have generic user => node:10-alpine
     -> On Right side, click on start analysis
     -> Analyze vulnabiloities ( I will make the vulnerabilities zero - You are already on wrong thinking)
 
+----------------------------------------------------------------------------------------------------------------------------------
+```
+Internet
+   ↓
+AWS ALB (single load balancer)
+   ↓
+Ingress Controller
+   ↓
+ClusterIP Service
+   ↓
+Pods
+```
 
  
 
